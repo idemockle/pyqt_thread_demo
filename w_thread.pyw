@@ -34,8 +34,6 @@ class GoThread(QThread):
         self.parent().textlabel.setStyleSheet('color: green; font-size: 80pt; text-align: center;')
 
 
-
-
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     main = MainWindow()
